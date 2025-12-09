@@ -119,3 +119,4 @@ websockets==15.0.1
 widgetsnbextension==4.0.15
 yfinance==0.2.66
 scikit-learn
+xgboost
