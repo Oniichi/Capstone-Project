@@ -1,3 +1,30 @@
+# =====================================
+# CAPSTONE PROJECT SPECIFIC
+# =====================================
+
+# Data files (large, regenerable)
+data/raw/*.csv
+data/processed/*.csv
+
+# Results (generated outputs)
+results/metrics/*.csv
+results/figures/*.png
+results/figures/*.jpg
+results/models/
+
+# Executed notebooks (generated)
+executed_notebooks/
+
+# Large model files
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# =====================================
+# PYTHON/PIP STANDARD
+# =====================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -27,8 +54,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -182,6 +207,41 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# IDE
+.vscode
+.vs
+.idea
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Testing
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+
+# Keep folder structure
+!.gitkeep
 #  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
